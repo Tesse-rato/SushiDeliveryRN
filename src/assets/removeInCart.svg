@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="8.44mm" height="7.2mm" viewBox="0 0 23.92 20.41">
+  <title>removeInCart</title>
+  <path d="M-184.25,39.06s2.43-.14,3,.57,2.71,9.85,2.71,9.85a1.4,1.4,0,0,0,1.29,1.14c1.14.15,11.84.15,11.84.15s1.43-.15,1.58-1.29,2-8.27,2-8.27" transform="translate(185 -36)" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.5"/>
+  <circle cx="10.45" cy="17.71" r="2.2" fill="none" stroke="#fff" stroke-miterlimit="10"/>
+  <circle cx="17.74" cy="17.71" r="2.2" fill="none" stroke="#fff" stroke-miterlimit="10"/>
+  <line x1="10.46" y1="6.21" x2="16.88" y2="6.21" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10"/>
+  <circle cx="13.76" cy="6.23" r="5.73" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10"/>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <g id="plus" transform="translate(-87 -585)">
+    <circle id="Elipse_2" data-name="Elipse 2" cx="24" cy="24" r="24" transform="translate(87 585)" fill="red"/>
+    <g id="Agrupar_1" data-name="Agrupar 1" transform="translate(-60.825 -3.325)">
+      <rect id="Retângulo_2" data-name="Retângulo 2" width="25.944" height="3.52" rx="1.76" transform="translate(158.825 610.325)" fill="#fff"/>
+      <rect id="Retângulo_3" data-name="Retângulo 3" width="25.944" height="3.52" rx="1.76" transform="translate(169.825 625.269) rotate(-90)" fill="#fff"/>
+    </g>
+  </g>
+</svg>
