@@ -1,6 +1,6 @@
 import Axios from 'axios';
 
-export const baseURL = 'http://caserahost.ddns.net';
+export const baseURL = 'http://192.168.0.102:3000';
 
 const api = Axios.create({ baseURL });
 
