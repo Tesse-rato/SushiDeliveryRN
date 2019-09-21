@@ -20,7 +20,7 @@ export default ({ currentDishe: { type, name, ingredients, price, priceBy }, add
         <View>
           <View style={{ flexDirection: 'row', alignItems: 'center', width: 200 }}>
             <Title>{type}</Title>
-            <View style={{ alignItems: 'center', right: -20, top: 20, position: 'absolute' }}>
+            <View style={{ alignItems: 'center', right: -20, top: 25, position: 'absolute' }}>
               <Price>R${price}</Price>
               <PriceBy>{priceBy}</PriceBy>
             </View>

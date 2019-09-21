@@ -30,7 +30,7 @@ export const SubTitle = styled.Text`
 export const Price = styled.Text`
   font-family: Comfortaa-Bold;
   font-size: 13px;
-  color: #BBB;
+  color: #AAA;
 `;
 export const PriceBy = styled.Text`
   font-family: Comfortaa-Bold;

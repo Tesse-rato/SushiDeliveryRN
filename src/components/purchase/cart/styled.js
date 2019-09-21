@@ -129,7 +129,7 @@ justify-content: center;
 //------------------------------------------------------------------------------------------------------------------
 /** Confirmacao do endereço */
 export const AdressContainer = styled.View`
-  flex: 1;
+  flex: .7;
   margin-top: 10px;
 `
 export const AdressTitle = styled.Text`

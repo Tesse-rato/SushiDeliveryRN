@@ -56,7 +56,7 @@ export default class TopBar extends Component {
             style={{
               color: this.animatedValue.interpolate({
                 inputRange: [0, 1, 2, 4],
-                outputRange: ['#333', '#DDD', '#DDD', '#DDD'],
+                outputRange: ['#333', '#AAA', '#AAA', '#AAA'],
               }),
               fontSize: this.animatedValue.interpolate({
                 inputRange: [0, 1, 2, 4],
@@ -70,7 +70,7 @@ export default class TopBar extends Component {
             style={{
               color: this.animatedValue.interpolate({
                 inputRange: [0, 1, 2, 3],
-                outputRange: ['#DDD', '#333', '#DDD', '#DDD'],
+                outputRange: ['#AAA', '#333', '#AAA', '#AAA'],
               }),
               fontSize: this.animatedValue.interpolate({
                 inputRange: [0, 1, 2, 3],
@@ -84,7 +84,7 @@ export default class TopBar extends Component {
             style={{
               color: this.animatedValue.interpolate({
                 inputRange: [0, 1, 2, 3],
-                outputRange: ['#DDD', '#DDD', '#333', '#DDD'],
+                outputRange: ['#AAA', '#AAA', '#333', '#AAA'],
               }),
               fontSize: this.animatedValue.interpolate({
                 inputRange: [0, 1, 2, 3],
@@ -98,7 +98,7 @@ export default class TopBar extends Component {
             style={{
               color: this.animatedValue.interpolate({
                 inputRange: [0, 1, 2, 3],
-                outputRange: ['#DDD', '#DDD', '#DDD', '#333'],
+                outputRange: ['#AAA', '#AAA', '#AAA', '#333'],
               }),
               fontSize: this.animatedValue.interpolate({
                 inputRange: [0, 1, 2, 3],

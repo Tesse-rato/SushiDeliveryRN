@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Animated, Dimensions, View, Text, ScrollView, StyleSheet } from 'react-native';
-import { PanGestureHandler, State } from 'react-native-gesture-handler';
+import { PanGestureHandler, State, TouchableOpacity } from 'react-native-gesture-handler';
 import AsyncStorage from '@react-native-community/async-storage';
 
 const { width, height } = Dimensions.get('window');
@@ -300,12 +300,20 @@ class Cart extends Component {
         </OrdererListContainer>
 
         {street ? (
-          <AdressContainer>
-            <AdressTitle> Endereço </AdressTitle>
-            <AdressText> Rua: {street} {number} </AdressText>
-            <AdressText> Bairro: {district} </AdressText>
-          </AdressContainer>
+          <>
+            <AdressContainer>
+              <AdressTitle> Endereço </AdressTitle>
+              <AdressText> Rua: {street} {number} </AdressText>
+              <AdressText> Bairro: {district} </AdressText>
+            </AdressContainer>
+            <TouchableOpacity style={{ alignSelf: 'center' }}>
+              <View style={{ width: 100, height: 40, borderRadius: 30, backgroundColor: '#FFF', alignItems: 'center', justifyContent: 'center' }}>
+                <Text style={{color: '#F00', fontStyle: 'bold'}}>Confirmar</Text>
+              </View>
+            </TouchableOpacity>
+          </>
         ) : null}
+
 
       </Container >
     );
